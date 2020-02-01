@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\GUI">
+      <UniqueIdentifier>{f846dcc4-3f1c-42d7-bffe-91d99653dcc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GUI">
+      <UniqueIdentifier>{19714175-62b2-4b98-915a-0fe976dbd626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ZLib">
+      <UniqueIdentifier>{52cb26e5-9216-4921-9fbb-f147bc8fbc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\ZLib">
+      <UniqueIdentifier>{62c6088b-894f-4eba-be95-5eb6ac8148d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\LZ4">
+      <UniqueIdentifier>{25584aed-68fc-4526-8a38-b031247e5f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\LZ4">
+      <UniqueIdentifier>{44bbcffc-b1a7-43e0-9505-8924ba582d24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Source\bacApp.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Resource.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\bacBSA.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\bacArchiveCommon.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\bacMainWindow.h">
+      <Filter>Файлы заголовков\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\bacArchiveInfoWindow.h">
+      <Filter>Файлы заголовков\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ZLib\ZLib.hpp">
+      <Filter>Файлы заголовков\ZLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\bacArchiveOperationThread.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\resource1.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LZ4\LZ4.hpp">
+      <Filter>Файлы заголовков\LZ4</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI\bacArchiveFilesViewModel.h">
+      <Filter>Файлы заголовков\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Source\bacApp.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\bacBSA.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\bacMainWindow.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\bacArchiveInfoWindow.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ZLib\ZLib.cpp">
+      <Filter>Исходные файлы\ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\bacMainWindowIcons.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\bacArchiveOperationThread.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LZ4\LZ4.cpp">
+      <Filter>Исходные файлы\LZ4</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\bacArchiveFilesViewModel.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\BArC.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\BArC.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Bin\Lang\en-US.xml">
+      <Filter>Файлы ресурсов</Filter>
+    </Xml>
+    <Xml Include="Bin\Lang\ru-RU.xml">
+      <Filter>Файлы ресурсов</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
