@@ -19,7 +19,7 @@ bacArchiveExtractThreadBase::bacArchiveExtractThreadBase(bacMainWindow* pMainWin
 	m_ItemsTotal(tElements.size())
 {
 	// This will resend synchronous events from archive unpacker as asynchronous
-	m_ArchiveEventHandler.Bind(KxEVT_ARCHIVE_UNPACK, [this](KxArchiveEvent& event)
+	m_ArchiveEventHandler.Bind(KxArchiveEvent::EvtProcess, [this](KxArchiveEvent& event)
 	{
 		if (TestDestroy())
 		{
@@ -52,7 +52,7 @@ bsaStatus bacArchiveExtractThreadBase::ExtractFile(size_t nFileIndex, const wxSt
 
 void bacArchiveExtractThreadBase::SendExtractEvent(size_t nCurrent, size_t nTotal, const wxString& sCurrentFile)
 {
-	KxArchiveEvent* event = new KxArchiveEvent(KxEVT_ARCHIVE_UNPACK);
+	KxArchiveEvent* event = new KxArchiveEvent(KxArchiveEvent::EvtProcess);
 	event->SetCurrent(sCurrentFile.Clone());
 	event->SetMinorProcessed(nCurrent);
 	event->SetMinorTotal(nTotal);

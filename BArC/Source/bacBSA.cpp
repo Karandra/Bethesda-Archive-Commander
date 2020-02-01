@@ -416,7 +416,7 @@ bsaStatus bacBSA::ExtractFile(const bsaFileRecord* pFileRecord, wxOutputStream& 
 
 			const size_t nTotal = pFileRecord->Size;
 
-			KxArchiveEvent event(KxEVT_ARCHIVE_UNPACK);
+			KxArchiveEvent event(KxArchiveEvent::EvtProcess);
 			if (pEventHandler)
 			{
 				event.Allow();

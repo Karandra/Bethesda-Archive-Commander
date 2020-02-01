@@ -141,7 +141,7 @@ bacMainWindow::bacMainWindow()
 
 	Bind(bacEVT_THREAD_END, &bacMainWindow::OnExtractionEnd, this);
 	Bind(bacEVT_ARCHIVE_ERROR, &bacMainWindow::OnExtractionError, this);
-	Bind(KxEVT_ARCHIVE_UNPACK, &bacMainWindow::OnExtractionStatusChange, this);
+	Bind(KxArchiveEvent::EvtProcess, &bacMainWindow::OnExtractionStatusChange, this);
 
 	m_ThreadStatusDialog = new KxDualProgressDialog(this, wxID_NONE, T("ExtractArchive.Caption"), wxDefaultPosition, wxDefaultSize, KxBTN_NONE);
 	m_ThreadStatusDialog->AddButton(wxID_CANCEL);

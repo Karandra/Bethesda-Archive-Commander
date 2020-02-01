@@ -16,7 +16,7 @@ void ZLibBase::RunGeneric(wxEvtHandler* pEventHandler, bool bCompress)
 {
 	if (m_TotalSize != 0)
 	{
-		KxArchiveEvent event(bCompress ? KxEVT_ARCHIVE_PACK : KxEVT_ARCHIVE_UNPACK);
+		KxArchiveEvent event(KxArchiveEvent::EvtProcess);
 		if (pEventHandler)
 		{
 			event.Allow();
