@@ -1,0 +1,9 @@
+0.5.1
+- 64-bit version added
+- Fixed file extraction if only one file is selected
+- Added file extraction on double click.
+- Fixed compression ratio for some files.
+
+0.5.2
+- Improved folder listing speed.
+- Added english translation

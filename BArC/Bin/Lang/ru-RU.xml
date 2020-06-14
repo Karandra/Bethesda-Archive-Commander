@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lang>
+	<Info>
+		<Translator>Kerber</Translator>
+	</Info>
+	<StringTable>
+		<!-- Stock IDs -->
+		<String ID="ID_ABOUT">О программе</String>
+		<String ID="ID_ADD">Добавить</String>
+		<String ID="ID_APPLY">Применить</String>
+		<String ID="ID_BACKWARD">Назад</String>
+		<String ID="ID_IGNORE">Пропустить</String>
+		<String ID="ID_BOLD">Полужирный</String>
+		<String ID="ID_BOTTOM">Низ</String>
+		<String ID="ID_CANCEL">Отмена</String>
+		<String ID="ID_CDROM">CD-ROM</String>
+		<String ID="ID_CLEAR">Очистить</String>
+		<String ID="ID_CLOSE">Закрыть</String>
+		<String ID="ID_CONVERT">Конвертировать</String>
+		<String ID="ID_MOVE">Переместить</String>
+		<String ID="ID_COPY">Копировать</String>
+		<String ID="ID_CUT">Вырезать</String>
+		<String ID="ID_DELETE">Удалить</String>
+		<String ID="ID_DOWN">Вниз</String>
+		<String ID="ID_EDIT">Изменить</String>
+		<String ID="ID_EXECUTE">Выполнить</String>
+		<String ID="ID_EXIT">Выход</String>
+		<String ID="ID_FILE">Файл</String>
+		<String ID="ID_FOLDER">Папка</String>
+		<String ID="ID_FIND">Поиск</String>
+		<String ID="ID_FIRST">Первый</String>
+		<String ID="ID_FLOPPY">Дискета</String>
+		<String ID="ID_FORWARD">Вперёд</String>
+		<String ID="ID_HARDDISK">Жёсткий диск</String>
+		<String ID="ID_HELP">Справка</String>
+		<String ID="ID_HOME">Домой</String>
+		<String ID="ID_INDENT">Отступ</String>
+		<String ID="ID_INDEX">Индекс</String>
+		<String ID="ID_INFO">Информация</String>
+		<String ID="ID_ITALIC">Курсив</String>
+		<String ID="ID_JUMP_TO">Перейти к</String>
+		<String ID="ID_JUSTIFY_CENTER">По центру</String>
+		<String ID="ID_JUSTIFY_FILL">По ширине</String>
+		<String ID="ID_JUSTIFY_LEFT">По левому краю</String>
+		<String ID="ID_JUSTIFY_RIGHT">По правому краю</String>
+		<String ID="ID_LAST">Последний</String>
+		<String ID="ID_NETWORK">Сеть</String>
+		<String ID="ID_NEW">Новый</String>
+		<String ID="ID_NO">Нет</String>
+		<String ID="ID_NONE">Нет</String>
+		<String ID="ID_OK">OK</String>
+		<String ID="ID_OPEN">Открыть</String>
+		<String ID="ID_PASTE">Вставить</String>
+		<String ID="ID_PREFERENCES">Предпочтения</String>
+		<String ID="ID_PREVIEW">Предпросмотр</String>
+		<String ID="ID_PRINT">Печать</String>
+		<String ID="ID_PROPERTIES">Свойства</String>
+		<String ID="ID_REDO">Вернуть</String>
+		<String ID="ID_REFRESH">Перезагрузить</String>
+		<String ID="ID_REMOVE">Удалить</String>
+		<String ID="ID_REPLACE">Заменить</String>
+		<String ID="ID_RENAME">Переименовать</String>
+		<String ID="ID_REVERT_TO_SAVED">Вернуть к сохранённому состоянию</String>
+		<String ID="ID_SAVE">Сохранить</String>
+		<String ID="ID_SAVEAS">Сохранить как</String>
+		<String ID="ID_SELECTALL">Выбрать всё</String>
+		<String ID="ID_SELECT_COLOR">Выбрать цвет</String>
+		<String ID="ID_SELECT_FONT">Выбрать шрифт</String>
+		<String ID="ID_SELECT_FILE">Выбрать файл</String>
+		<String ID="ID_SELECT_FOLDER">Выбрать папку</String>
+		<String ID="ID_SORT_ASCENDING">По возрастанию</String>
+		<String ID="ID_SORT_DESCENDING">По убыванию</String>
+		<String ID="ID_SPELL_CHECK">Проверка орфографии</String>
+		<String ID="ID_STOP">Стоп</String>
+		<String ID="ID_STRIKETHROUGH">Зачёркнутый</String>
+		<String ID="ID_TOP">Верх</String>
+		<String ID="ID_UNDELETE">Отменить удаление</String>
+		<String ID="ID_UNDERLINE">Подчёркнутый</String>
+		<String ID="ID_UNDO">Отменить</String>
+		<String ID="ID_UNINDENT">Убрать отступ</String>
+		<String ID="ID_UP">Верх</String>
+		<String ID="ID_YES">Да</String>
+		<String ID="ID_ZOOM_100">Фактический размер</String>
+		<String ID="ID_ZOOM_FIT">Подогнать по размеру</String>
+		<String ID="ID_ZOOM_IN">Увеличить масштаб</String>
+		<String ID="ID_ZOOM_OUT">Уменьшить масштаб</String>
+		<String ID="ID_ERROR">Ошибка</String>
+
+		<String ID="ID_ABOUT_LONG">Показать информацию о программе</String>
+		<String ID="ID_COPY_LONG">Копировать выделенное</String>
+		<String ID="ID_CUT_LONG">Вырезать выделенное</String>
+		<String ID="ID_DELETE_LONG">Удалить выделенное</String>
+		<String ID="ID_REPLACE_LONG">Заменить выделенное</String>
+		<String ID="ID_PASTE_LONG">Вставить выделенное</String>
+		<String ID="ID_EXIT_LONG">Выйти из программы</String>
+		<String ID="ID_UNDO_LONG">Отменить последнее действие</String>
+		<String ID="ID_REDO_LONG">Вернуть последнее действие</String>
+		<String ID="ID_CLOSE_LONG">Закрыть текущий документ</String>
+		<String ID="ID_SAVE_LONG">Сохранить текущий документ</String>
+		<String ID="ID_SAVEAS_LONG">Сохранить текущий документ под другим именем</String>
+
+		<String ID="FileFilter.AllFiles">Все файлы</String>
+		<String ID="FileFilter.BSA">Файлы BSA</String>
+		<String ID="FileFilter.BA2">Файлы BA2</String>
+
+		<String ID="App.LangChange">Изменения вступят в силу после перезапуска</String>
+		
+		<String ID="BSA.InvalidFormatMessage">Не удалось прочитать заголовок файла. Возможно архив повреждён или не поддерживается</String>
+		<String ID="BSA.InvalidFormatCanIgnore">Архив имеет корректный заголовок, но при чтении последующих данных возникли ошибки. Просмотреть прочитанные данные?</String>
+		
+		<String ID="BSA.Status101">Неизвестная ошибка</String>
+		<String ID="BSA.Status102">Операция не поддерживается</String>
+		<String ID="BSA.Status103">Файл не найден</String>
+		<String ID="BSA.Status104">Папка не найдена</String>
+		<String ID="BSA.Status105">Ошибка сжатия</String>
+		<String ID="BSA.Status106">Операция отменена пользователем</String>
+		<String ID="BSA.Status107">Нет файлов для извлечения</String>
+		
+		<String ID="BSA.Status201">Ошибка чтения/записи</String>
+		<String ID="BSA.Status202">Некорректная сигнатура</String>
+		<String ID="BSA.Status203">Неопознанная структура файла</String>
+		<String ID="BSA.Status204">Неподдерживаемая версия</String>
+		<String ID="BSA.Status205">Неподдерживаемые опции создания архива</String>
+		
+		<String ID="BSA.Status301">Ошибка чтения списка папок</String>
+		<String ID="BSA.Status302">Ошибка чтения списка файлов</String>
+		<String ID="BSA.Status303">Ошибка чтения списка имён файлов</String>
+		<String ID="BSA.Status304">Ошибка чтения файловых данных</String>
+		
+		<String ID="FilesView.Name">Имя</String>
+		<String ID="FilesView.Type">Тип</String>
+		<String ID="FilesView.Size">Размер</String>
+		<String ID="FilesView.FolderSize">Количество файлов</String>
+		<String ID="FilesView.SizeOriginal">Исходный размер</String>
+		<String ID="FilesView.SizeCompressed">Сжатый размер</String>
+		<String ID="FilesView.Hash">Хэш</String>
+		<String ID="FilesView.Offset">Смещение</String>
+		
+		<String ID="FilesView.Type.File">Файл</String>
+		<String ID="FilesView.Type.Files">Файлы</String>
+		<String ID="FilesView.Type.Folder">Папка</String>
+		<String ID="FilesView.Type.Folders">Папки</String>
+		<String ID="FilesView.Status.Selected">Файл: %s, Размер: %s, Смещение: %u</String>
+		<String ID="FilesView.Status.Total">Всего: %u папок и %s в %u файлах</String>
+		
+		<String ID="Menus.File">Файл</String>
+		<String ID="Menus.File.OpenArchive">Открыть архив</String>
+		<String ID="Menus.File.CloseArchive">Закрыть архив</String>
+		<String ID="Menus.File.ExitApp">Выход</String>
+		
+		<String ID="Menus.Commands">Команды</String>
+		<String ID="Menus.Commands.Extract">Извлечь файл(ы)</String>
+		<String ID="Menus.Commands.ExtractFolder">Извлечь только эту папку</String>
+		<String ID="Menus.Commands.ExtractFolderRecursive">Извлечь папку</String>
+		
+		<String ID="Menus.Language">Язык</String>
+		
+		<String ID="ToolBar.Info">Информация</String>
+		<String ID="ToolBar.TestArchive">Тестировать архив</String>
+		
+		<String ID="ArchiveInfo.DialogCaption">Общая информация</String>
+		<String ID="ArchiveInfo.Tab.Info">Информация</String>
+		<String ID="ArchiveInfo.Tab.ArchiveFlags">Архивные флаги</String>
+		<String ID="ArchiveInfo.Tab.ContentFlags">Флаги содержимого</String>
+		
+		<String ID="ArchiveInfo.Version">Версия</String>
+		<String ID="ArchiveInfo.Ratio">Степень сжатия</String>
+		<String ID="ArchiveInfo.CompressedSize">Сжатый размер</String>
+		<String ID="ArchiveInfo.OriginalSize">Исходный размер</String>
+		<String ID="ArchiveInfo.FoldersCount">Количество папок</String>
+		<String ID="ArchiveInfo.FilesCount">Количество файлов</String>
+		<String ID="ArchiveInfo.TotalFolderNamesLength">Суммарная длина всех имён папок</String>
+		<String ID="ArchiveInfo.TotalFileNamesLength">Суммарная длина всех имён файлов</String>
+		
+		<String ID="ArchiveInfo.UnknownFlag">Неизвестный флаг</String>
+		<String ID="ArchiveInfo.BitNum">Бит #</String>
+		<String ID="ArchiveInfo.BSA_INCLUDE_DIRECTORY_NAMES">Включить имена папок</String>
+		<String ID="ArchiveInfo.BSA_INCLUDE_FILE_NAMES">Включить имена файлов</String>
+		<String ID="ArchiveInfo.BSA_DEFAULT_COMPRESSED">Сжат по умолчанию</String>
+		<String ID="ArchiveInfo.BSA_RETAIN_DIRECTORY_NAMES">Сохранять имена папок</String>
+		<String ID="ArchiveInfo.BSA_RETAIN_FILE_NAMES">Сохранять имена файлов</String>
+		<String ID="ArchiveInfo.BSA_RETAIN_FILE_OFFSETS">Сохранять смещения файлов</String>
+		<String ID="ArchiveInfo.BSA_XBOX360">Архив для XBox360</String>
+		<String ID="ArchiveInfo.BSA_RETAIN_STRINGS_DURING_STARTUP">Сохранять строки в процессе запуска</String>
+		<String ID="ArchiveInfo.BSA_EMBED_FILE_NAMES">Встраивать имена файлов</String>
+		<String ID="ArchiveInfo.BSA_CODEC_XMEM">Кодек XMem</String>
+		
+		<String ID="ArchiveInfo.BSA_CONTENT_MESHES">Модели</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_TEXTURES">Текстуры</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_MENUS">Интерфейс</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_SOUNDS">Звуки</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_VOICES">Голоса</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_SHADERS">Шейдеры</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_TREES">Деревья</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_FONTS">Шрифты</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_MISC">Разное</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_CTL">CTL</String>
+
+		<String ID="TestArchive.Caption">Проверка архива</String>
+		<String ID="TestArchive.CheckingFolder">Проферка хэша папки</String>
+		<String ID="TestArchive.CheckingFile">Проферка хэша файла</String>
+		<String ID="TestArchive.Error">Ошибки обнаружены при проверке следующих элеиментов:</String>
+		<String ID="TestArchive.NoErrors">Ошибок не обнаружено</String>
+		
+		<String ID="ExtractArchive.NoSuchFile">Файл не найден</String>
+		<String ID="ExtractArchive.Caption">Распаковка файлов</String>
+		<String ID="ExtractArchive.Label">Извлечение файла</String>
+		<String ID="ExtractArchive.LabelProcessed">Обработано</String>
+	</StringTable>
+</Lang>

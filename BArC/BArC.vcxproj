@@ -74,28 +74,28 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\Users\Kerber\Documents\Visual Studio 2017\Projects\wxWidgets\include;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\StdAfx;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\DataStructures;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\System;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\Streams;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\FileSystem;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\Sizers;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\FileFormats;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\Events;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\AUI;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\Dialogs;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\Menus;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\Controls;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Source\Windows;$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions;$(ProjectDir);$(ProjectDir)Source;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions\Bin;$(LibraryPath)</LibraryPath>
-    <OutDir>$(ProjectDir)Bin\</OutDir>
-    <IntDir>$(ProjectDir)Junk\</IntDir>
+    <OutDir>$(ProjectDir)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)\Junk\$(Configuration) $(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>$(SolutionDir)..\Lua Developer Studio\wxWidgets Extensions;$(ProjectDir)Source;$(ProjectDir);$(IncludePath)</IncludePath>
-    <OutDir>$(ProjectDir)Bin\</OutDir>
-    <IntDir>$(ProjectDir)Junk\</IntDir>
+    <OutDir>$(ProjectDir)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)\Junk\$(Configuration) $(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
     <LibraryPath>$(LibraryPath)</LibraryPath>
-    <OutDir>$(ProjectDir)Bin\</OutDir>
-    <IntDir>$(ProjectDir)Junk\</IntDir>
+    <OutDir>$(ProjectDir)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)\Junk\$(Configuration) $(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-    <OutDir>$(ProjectDir)Bin\</OutDir>
-    <IntDir>$(ProjectDir)Junk\x64\</IntDir>
-    <TargetName>$(ProjectName) x64</TargetName>
+    <OutDir>$(ProjectDir)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(ProjectDir)\Junk\$(Configuration) $(Platform)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
     <LibraryPath>$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -106,7 +106,7 @@
       <PreprocessorDefinitions>WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)..\wxWidgets;$(SolutionDir)..\wxWidgets\include;$(SolutionDir)..\wxWidgets\lib\vc_lib\mswu;$(SolutionDir)..\KxFramework;$(SolutionDir)..\KxFramework\KxFramework;$(SolutionDir)..\LZ4;$(SolutionDir)..\zlibvc;$(ProjectDir);$(ProjectDir)Source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -126,7 +126,7 @@
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)..\wxWidgets;$(SolutionDir)..\wxWidgets\include;$(SolutionDir)..\wxWidgets\lib\vc_x64_lib\mswu;$(SolutionDir)..\KxFramework;$(SolutionDir)..\KxFramework\KxFramework;$(SolutionDir)..\LZ4;$(SolutionDir)..\zlibvc;$(ProjectDir);$(ProjectDir)Source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -148,7 +148,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalIncludeDirectories>$(SolutionDir)..\wxWidgets;$(SolutionDir)..\wxWidgets\include;$(SolutionDir)..\wxWidgets\lib\vc_lib\mswu;$(SolutionDir)..\KxFramework;$(SolutionDir)..\KxFramework\KxFramework;$(SolutionDir)..\LZ4;$(SolutionDir)..\zlibvc;$(ProjectDir);$(ProjectDir)Source</AdditionalIncludeDirectories>
     </ClCompile>
@@ -176,7 +176,7 @@
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>$(SolutionDir)..\wxWidgets;$(SolutionDir)..\wxWidgets\include;$(SolutionDir)..\wxWidgets\lib\vc_x64_lib\mswu;$(SolutionDir)..\KxFramework;$(SolutionDir)..\KxFramework\KxFramework;$(SolutionDir)..\LZ4;$(SolutionDir)..\zlibvc;$(ProjectDir);$(ProjectDir)Source</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>

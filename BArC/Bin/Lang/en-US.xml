@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Lang>
+	<Info>
+		<Translator>Monday, Kerber</Translator>
+	</Info>
+	<StringTable>
+		<!-- Stock IDs -->
+		<String ID="ID_ABOUT">About</String>
+		<String ID="ID_ADD">Add</String>
+		<String ID="ID_APPLY">Apply</String>
+		<String ID="ID_BACKWARD">Back</String>
+		<String ID="ID_IGNORE">Ignore</String>
+		<String ID="ID_BOLD">Bold</String>
+		<String ID="ID_BOTTOM">Bottom</String>
+		<String ID="ID_CANCEL">Cancel</String>
+		<String ID="ID_CDROM">CD-ROM</String>
+		<String ID="ID_CLEAR">Clear</String>
+		<String ID="ID_CLOSE">Close</String>
+		<String ID="ID_CONVERT">Convert</String>
+		<String ID="ID_MOVE">Move</String>
+		<String ID="ID_COPY">Copy</String>
+		<String ID="ID_CUT">Cut</String>
+		<String ID="ID_DELETE">Delete</String>
+		<String ID="ID_DOWN">Down</String>
+		<String ID="ID_EDIT">Edit</String>
+		<String ID="ID_EXECUTE">Execute</String>
+		<String ID="ID_EXIT">Quit</String>
+		<String ID="ID_FILE">File</String>
+		<String ID="ID_FOLDER">Folder</String>
+		<String ID="ID_FIND">Find</String>
+		<String ID="ID_FIRST">First</String>
+		<String ID="ID_FLOPPY">Floppy</String>
+		<String ID="ID_FORWARD">Forward</String>
+		<String ID="ID_HARDDISK">Hard disk</String>
+		<String ID="ID_HELP">Help</String>
+		<String ID="ID_HOME">Home</String>
+		<String ID="ID_INDENT">Indent</String>
+		<String ID="ID_INDEX">Index</String>
+		<String ID="ID_INFO">Info</String>
+		<String ID="ID_ITALIC">Italic</String>
+		<String ID="ID_JUMP_TO">Jump to</String>
+		<String ID="ID_JUSTIFY_CENTER">Centered</String>
+		<String ID="ID_JUSTIFY_FILL">Justified</String>
+		<String ID="ID_JUSTIFY_LEFT">Align left</String>
+		<String ID="ID_JUSTIFY_RIGHT">Align right</String>
+		<String ID="ID_LAST">Last</String>
+		<String ID="ID_NETWORK">Network</String>
+		<String ID="ID_NEW">New</String>
+		<String ID="ID_NO">No</String>
+		<String ID="ID_NONE">None</String>
+		<String ID="ID_OK">OK</String>
+		<String ID="ID_OPEN">Open</String>
+		<String ID="ID_PASTE">Paste</String>
+		<String ID="ID_PREFERENCES">Preferences</String>
+		<String ID="ID_PREVIEW">Preview</String>
+		<String ID="ID_PRINT">Print</String>
+		<String ID="ID_PROPERTIES">Properties</String>
+		<String ID="ID_REDO">Redo</String>
+		<String ID="ID_REFRESH">Refresh</String>
+		<String ID="ID_REMOVE">Remove</String>
+		<String ID="ID_REPLACE">Replace</String>
+		<String ID="ID_RENAME">Rename</String>
+		<String ID="ID_REVERT_TO_SAVED">Revert to saved</String>
+		<String ID="ID_SAVE">Save</String>
+		<String ID="ID_SAVEAS">Save as</String>
+		<String ID="ID_SELECTALL">Select all</String>
+		<String ID="ID_SELECT_COLOR">Select color</String>
+		<String ID="ID_SELECT_FONT">Select font</String>
+		<String ID="ID_SELECT_FILE">Select file</String>
+		<String ID="ID_SELECT_FOLDER">Select folder</String>
+		<String ID="ID_SORT_ASCENDING">Ascending</String>
+		<String ID="ID_SORT_DESCENDING">Descending</String>
+		<String ID="ID_SPELL_CHECK">Spell check</String>
+		<String ID="ID_STOP">Stop</String>
+		<String ID="ID_STRIKETHROUGH">Strikethrough</String>
+		<String ID="ID_TOP">Top</String>
+		<String ID="ID_UNDELETE">Undelete</String>
+		<String ID="ID_UNDERLINE">Underline</String>
+		<String ID="ID_UNDO">Undo</String>
+		<String ID="ID_UNINDENT">Unindent</String>
+		<String ID="ID_UP">Up</String>
+		<String ID="ID_YES">Yes</String>
+		<String ID="ID_ZOOM_100">Actual size</String>
+		<String ID="ID_ZOOM_FIT">Zoomto fit</String>
+		<String ID="ID_ZOOM_IN">Zoom in</String>
+		<String ID="ID_ZOOM_OUT">Zoom out</String>
+		<String ID="ID_ERROR">Error</String>
+
+		<String ID="ID_ABOUT_LONG">Show about dialog</String>
+		<String ID="ID_COPY_LONG">Copy selection</String>
+		<String ID="ID_CUT_LONG">Cut selection</String>
+		<String ID="ID_DELETE_LONG">Delete selection</String>
+		<String ID="ID_REPLACE_LONG">Replace selection</String>
+		<String ID="ID_PASTE_LONG">Paste selection</String>
+		<String ID="ID_EXIT_LONG">Quit this program</String>
+		<String ID="ID_UNDO_LONG">Undo last action</String>
+		<String ID="ID_REDO_LONG">Redo last action</String>
+		<String ID="ID_CLOSE_LONG">Close current document</String>
+		<String ID="ID_SAVE_LONG">Save current document</String>
+		<String ID="ID_SAVEAS_LONG">Save current document with a different filename</String>
+
+		<String ID="FileFilter.AllFiles">All files</String>
+		<String ID="FileFilter.BSA">BSA files</String>
+		<String ID="FileFilter.BA2">BA2 files</String>
+
+		<String ID="App.LangChange">Changes will take effect after the restart</String>
+		
+		<String ID="BSA.InvalidFormatMessage">The file header could not be read. The archive may be corrupted or not supported</String>
+		<String ID="BSA.InvalidFormatCanIgnore">The archive has a valid header, but errors occurred when reading subsequent data. Continue?</String>
+
+		<String ID="BSA.Status101">Unknown error</String>
+		<String ID="BSA.Status102">Operation not supported</String>
+		<String ID="BSA.Status103">File not found</String>
+		<String ID="BSA.Status104">Folder not found</String>
+		<String ID="BSA.Status105">Compression error</String>
+		<String ID="BSA.Status106">Operation canceled by user</String>
+		<String ID="BSA.Status107">No files to extract</String>
+
+		<String ID="BSA.Status201">Read/write error</String>
+		<String ID="BSA.Status202">Invalid signature</String>
+		<String ID="BSA.Status203">Unrecognized file structure</String>
+		<String ID="BSA.Status204">Unsupported version</String>
+		<String ID="BSA.Status205">Unsupported archive creation options</String>
+
+		<String ID="BSA.Status301">Error reading folder list</String>
+		<String ID="BSA.Status302">Error reading the file list</String>
+		<String ID="BSA.Status303">Error reading the list of file names</String>
+		<String ID="BSA.Status304">Error reading file data</String>
+
+		<String ID="FilesView.Name">Name</String>
+		<String ID="FilesView.Type">Type</String>
+		<String ID="FilesView.Size">Size</String>
+		<String ID="FilesView.FolderSize">Files count</String>
+		<String ID="FilesView.SizeOriginal">Original size</String>
+		<String ID="FilesView.SizeCompressed">Compressed size</String>
+		<String ID="FilesView.Hash">Hash</String>
+		<String ID="FilesView.Offset">Offset</String>
+
+		<String ID="FilesView.Type.File">File</String>
+		<String ID="FilesView.Type.Files">Files</String>
+		<String ID="FilesView.Type.Folder">Folder</String>
+		<String ID="FilesView.Type.Folders">Flders</String>
+		<String ID="FilesView.Status.Selected">File (#%zu): %s, Size: %s, Offset: %u</String>
+		<String ID="FilesView.Status.Total">Total: %u folders and %s in %u files</String>
+
+		<String ID="Menus.File">File</String>
+		<String ID="Menus.File.OpenArchive">Open archive</String>
+		<String ID="Menus.File.CloseArchive">Close archive</String>
+		<String ID="Menus.File.ExitApp">Exit</String>
+
+		<String ID="Menus.Commands">Commands</String>
+		<String ID="Menus.Commands.Extract">Extract file(s)</String>
+		<String ID="Menus.Commands.ExtractFolder">Extract folder</String>
+		<String ID="Menus.Commands.ExtractFolderRecursive">Extract folder recursive</String>
+
+		<String ID="Menus.Language">Language</String>
+
+		<String ID="ToolBar.Info">Information</String>
+		<String ID="ToolBar.TestArchive">Test archive</String>
+
+		<String ID="ArchiveInfo.DialogCaption">General information</String>
+		<String ID="ArchiveInfo.Tab.Info">Information</String>
+		<String ID="ArchiveInfo.Tab.ArchiveFlags">Archive flags</String>
+		<String ID="ArchiveInfo.Tab.ContentFlags">Content flags</String>
+
+		<String ID="ArchiveInfo.Version">Version</String>
+		<String ID="ArchiveInfo.Ratio">Compression ratio</String>
+		<String ID="ArchiveInfo.CompressedSize">Compressed size</String>
+		<String ID="ArchiveInfo.OriginalSize">Uncompressed size</String>
+		<String ID="ArchiveInfo.FoldersCount">Directories count</String>
+		<String ID="ArchiveInfo.FilesCount">Files count</String>
+		<String ID="ArchiveInfo.TotalFolderNamesLength">Total directory names length</String>
+		<String ID="ArchiveInfo.TotalFileNamesLength">Total file names length</String>
+
+		<String ID="ArchiveInfo.UnknownFlag">Unknown flag</String>
+		<String ID="ArchiveInfo.BitNum">Bit #</String>
+		<String ID="ArchiveInfo.BSA_INCLUDE_DIRECTORY_NAMES">Include directory names</String>
+		<String ID="ArchiveInfo.BSA_INCLUDE_FILE_NAMES">Include file names</String>
+		<String ID="ArchiveInfo.BSA_DEFAULT_COMPRESSED">Compressed by default</String>
+		<String ID="ArchiveInfo.BSA_RETAIN_DIRECTORY_NAMES">Retain directory names</String>
+		<String ID="ArchiveInfo.BSA_RETAIN_FILE_NAMES">Retain file names</String>
+		<String ID="ArchiveInfo.BSA_RETAIN_FILE_OFFSETS">Retain file offsets</String>
+		<String ID="ArchiveInfo.BSA_XBOX360">XBox360 archive</String>
+		<String ID="ArchiveInfo.BSA_RETAIN_STRINGS_DURING_STARTUP">Retain strings during startup</String>
+		<String ID="ArchiveInfo.BSA_EMBED_FILE_NAMES">Embed file names</String>
+		<String ID="ArchiveInfo.BSA_CODEC_XMEM">XMem codec</String>
+
+		<String ID="ArchiveInfo.BSA_CONTENT_MESHES">Meshes</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_TEXTURES">Textures</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_MENUS">Menus</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_SOUNDS">Sounds</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_VOICES">Voices</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_SHADERS">Shaders</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_TREES">Trees</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_FONTS">Fonts</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_MISC">Misc</String>
+		<String ID="ArchiveInfo.BSA_CONTENT_CTL">CTL</String>
+
+		<String ID="TestArchive.Caption">Testing archive</String>
+		<String ID="TestArchive.CheckingFolder">Checking folder hash</String>
+		<String ID="TestArchive.CheckingFile">Checking file hash</String>
+		<String ID="TestArchive.Error">Errors were found when checking the following items:</String>
+		<String ID="TestArchive.NoErrors">No errors detected</String>
+
+		<String ID="ExtractArchive.NoSuchFile">File not found</String>
+		<String ID="ExtractArchive.Caption">Unpacking files</String>
+		<String ID="ExtractArchive.Label">File extraction</String>
+		<String ID="ExtractArchive.LabelProcessed">Processed</String>
+	</StringTable>
+</Lang>
